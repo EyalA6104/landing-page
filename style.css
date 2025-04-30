@@ -128,7 +128,7 @@ ul {
     align-items: center;
     gap: 20px;
     width: 100%;
-    padding: 80px 180px;
+    padding: 80px 200px;
 }
 
 .quote-text {
@@ -142,3 +142,39 @@ ul {
     font-weight: 700;
 }
 
+.section-four {
+    display: flex;
+    justify-content: center;
+    padding: 50px 120px;
+}
+
+.blue-box {
+    display: flex;
+    gap: 80px;
+    background-color: #3882f6;
+    border-radius: 6px;
+    padding: 40px 80px;
+}
+
+.blue-box-title {
+    font-weight: 700;
+    color: #f9faf8;
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+.blue-box-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.secondary-sign-up {
+    background-color: #3882f6;
+    border-radius: 6px;
+    border: 2px solid #e5e7eb;
+    padding: 8px 24px;
+    box-sizing: border-box;
+    max-width: fit-content;
+    color: #e5e7eb;
+    align-self: center;
+}
