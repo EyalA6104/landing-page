@@ -35,7 +35,7 @@ ul {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 16px
+    gap: 20px
     ;
 }
 
@@ -78,4 +78,39 @@ ul {
 
 .main-img {
     max-width: 100%;
+}
+
+.section-two{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 20px 180px 40px 180px;
+    gap: 20px;
+}
+
+.imgs-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.img-placeholder {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.info-card {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
